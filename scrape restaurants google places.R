@@ -1,7 +1,7 @@
 #https://stackoverflow.com/questions/50260867/next-page-token-in-google-places-googleway-package
 library(googleway)
 library(tidyverse)
-#api_key <- 'AIzaSyAVVLjn0zgY8RFhFla9cAqDHnvOk6vsA2k'
+
 
 res <- google_places(search_string = "Restaurants, Porto, Portugal",
                      key = api_key,
